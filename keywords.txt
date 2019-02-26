@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map For SerialVariable
+#######################################
+
+####################################################
+# Datatypes (KEYWORD1)
+####################################################
+
+SerialVariable	KEYWORD1
+
+####################################################
+# Methods and Functions (KEYWORD2)
+####################################################
+
+update	KEYWORD2
+setCallback	KEYWORD2
+
+getInt	KEYWORD2
+getDouble	KEYWORD2
+getFloat	KEYWORD2
+getBool	KEYWORD2
+getChar	KEYWORD2
+
+getIntSize	KEYWORD2
+getDoubleSize	KEYWORD2
+getFloatSize	KEYWORD2
+getBoolSize	KEYWORD2
+getCharSize	KEYWORD2
