@@ -18,16 +18,16 @@ void loop() {
 }
 
 
-void doStuff(int bin) {
-  if (bin < In) {
-    Serial.println(myVals.getInt(bin));
-  } else if (bin < In + Do) {
-    Serial.println(myVals.getDouble(bin));
-  } else if (bin < In + Do + Fl) {
-    Serial.println(myVals.getFloat(bin));
-  } else if (bin < In + Do + Fl + Bo) {
-    Serial.println(myVals.getBool(bin));
-  } else if (bin < In + Do + Fl + Bo + Ch) {
-    Serial.println(myVals.getChar(bin));
+void doStuff(int index) {
+  if (index < In) {
+    Serial.println(myVals.getInt(index));
+  } else if (index < In + Do) {
+    Serial.println(myVals.getDouble(index));
+  } else if (index < In + Do + Fl) {
+    Serial.println(myVals.getFloat(index));
+  } else if (index < In + Do + Fl + Bo) {
+    Serial.println(myVals.getBool(index));
+  } else if (index < In + Do + Fl + Bo + Ch) {
+    Serial.println(myVals.getChar(index));
   }
 }
