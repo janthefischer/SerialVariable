@@ -12,9 +12,9 @@ void loop() {
 }
 
 
-void doStuff(int bin){
+void doStuff(int index){
   Serial.print("Integer ");
-  Serial.print(bin);
+  Serial.print(index);
   Serial.print(" has been set to ");
-  Serial.println(myVals.getInt(bin));
+  Serial.println(myVals.getInt(index));
 }
